@@ -120,14 +120,11 @@ if(validacao){
 function calculadora(x, y, sinal){
     if(sinal === '+'){
         return x + y;
-    }
-    if(sinal === '-'){
+    } if else(sinal === '-'){
         return x - y;
-    }
-    if(sinal === '*'){
+    } if else(sinal === '*'){
         return x * y;
-    }
-    if(sinal === '/'){
+    } else {
         return x / y;
     }
 }
