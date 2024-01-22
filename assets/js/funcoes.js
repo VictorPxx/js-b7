@@ -114,3 +114,31 @@ if(validacao){
 } else {
     console.log('Acesso NEGADO!')
 }
+
+/*PENSADO POR MIM, PARA EXERCITAR A LÓGICA.
+
+function calculadora(x, y, sinal){
+    if(sinal === '+'){
+        return x + y;
+    }
+    if(sinal === '-'){
+        return x - y;
+    }
+    if(sinal === '*'){
+        return x * y;
+    }
+    if(sinal === '/'){
+        return x / y;
+    }
+}
+
+let xString = prompt('Digite o primeiro número');
+let sinal = prompt('Digite o sinal(+, -, *, /) da espressão');
+let yString = prompt('Digite o segundo número');
+let x = parseInt(xString);
+let y = parseInt(yString);
+
+let calc = calculadora(x, y, sinal);
+
+alert(`Resultado de ${x} + ${y} é ${calc}`);
+*/
