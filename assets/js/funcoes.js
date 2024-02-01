@@ -139,3 +139,19 @@ let calc = calculadora(x, y, sinal);
 
 alert(`Resultado de ${x} + ${y} é ${calc}`);
 */
+
+function hip(a, b) {
+    let cateto1 = a * a;
+    let cateto2 = b * b; 
+    let hipot = cateto1 + cateto2;
+
+    return Math.sqrt(hipot)
+    //Math.sqrt devolve a raíz quadrada.
+}
+
+let a = 4;
+let b = 6;
+
+let hipotenusa = hip(a, b);
+
+console.log((hipotenusa * hipotenusa) / hipotenusa);
